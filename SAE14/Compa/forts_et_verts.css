@@ -1,0 +1,143 @@
+
+body{
+    font-family:  'Poppins' , sans-serif;
+    margin: 0px;
+    font-weight:lighter;
+    word-spacing:2px;
+    line-height:1.5;
+    background-color: rgba(0, 110, 64, 0.1);
+}
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #007254;
+}
+h2{
+    color: #fff;
+    font-size: 100%;
+    font-weight: lighter;
+    font-family: 'COMPAGNONS' , sans-serif;
+}
+#main{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#projet{
+    display: flex;
+}
+#mtop{
+    display: flex;
+
+}
+#atop{
+    width: 50%;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #007254;
+    color: #fff;
+    text-align: center;
+}
+
+#band{
+    background-color: #007254;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#présentation{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+section{
+    border-style:solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(0, 110, 64, 0.1);
+    
+
+}
+#secpre{
+    display:flex;
+    align-items: center;
+}
+
+#photo{
+    padding: 10px;
+    border-radius: 15px;
+    width:90%
+
+}
+#logo_nav{
+    width: 15% ;
+}
+
+nav{
+    padding-top: 10px;
+    background: rgb(0, 110, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+a{
+    
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+
+h3{
+    color:#006E41;
+    padding: 10px;
+    margin: 0px;
+    font-weight: lighter;
+    font-family: 'COMPAGNONS' , sans-serif;
+ 	
+}
+h4{
+    color:#006E41;
+    padding: 5px;
+    margin: 0px;
+    font-weight: lighter;
+    font-family: 'COMPAGNONS' , sans-serif;
+ 	
+}
+h5{
+
+    font-weight: lighter;
+    font-family: 'COMPAGNONS' , sans-serif;
+}
+article{
+ font-size: 90%;
+ padding: 10px;
+}
+
+@font-face{ 
+  font-family: 'COMPAGNONS';
+  src: url('compagnons-webfont.eot');
+  src: url('compagnons-webfont1.eot') format('embedded-opentype'),
+    url('compagnons-webfont.woff') format('woff'),
+    url('compagnons-webfont.ttf') format('truetype'),
+    url('https://compagnons.sgdf.fr/wp-content/themes/fonts/compagnons-webfont.svg#webfont') format('svg');
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+@media only screen and (max-width: 1000px)  {
+    #main {
+            margin: 2%;
+        }
+}
